@@ -1,15 +1,13 @@
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./style/theme";
 import { Flex, Screen, Typography } from "./style";
+import { NavBar } from "./components/navbar";
 
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <Screen>
-        <Flex>
-          <Typography>Hello word</Typography>
-          <Typography>Hello word</Typography>
-        </Flex>
+        <NavBar/>
       </Screen>
     </ThemeProvider>
   );

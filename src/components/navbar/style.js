@@ -56,6 +56,29 @@ export const BtnTheme = styled.button`
 
 `
 
+export const ListIcon = styled.li`
+
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    color: ${(props)=> props.theme.textPrimary};
+    font-size: 24px;
+
+    &:hover{
+        opacity:0.7;
+    }
+`
+
+export const Divider = styled.div`
+
+    width: 100%;
+    height: 1px;
+    border: ${props=> `1px solid ${props.theme.divider}`};
+
+`
+
 
 
 

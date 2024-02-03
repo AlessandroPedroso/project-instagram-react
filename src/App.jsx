@@ -3,6 +3,7 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "./style/theme";
 import { Flex, Screen, Typography } from "./style";
 import { NavBar } from "./components/navbar";
+import Header from "./components/header";
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
     <ThemeProvider theme={theme === 'light'? lightTheme:darkTheme}>
       <Screen>
         <NavBar themeToggler={themeToggler} theme={theme} />
+        <Flex gap="2px">
+          <Header/>
+        </Flex>
       </Screen>
     </ThemeProvider>
   );

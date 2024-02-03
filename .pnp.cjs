@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:7.33.2"],\
             ["eslint-plugin-react-hooks", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:4.6.0"],\
             ["eslint-plugin-react-refresh", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:0.4.5"],\
+            ["lucide-react", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:0.321.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:18.2.0"],\
             ["react-icons", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:5.0.1"],\
@@ -2547,6 +2548,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:7.33.2"],\
             ["eslint-plugin-react-hooks", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:4.6.0"],\
             ["eslint-plugin-react-refresh", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:0.4.5"],\
+            ["lucide-react", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:0.321.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:18.2.0"],\
             ["react-icons", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:5.0.1"],\
@@ -3031,6 +3033,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["lru-cache", "npm:6.0.0"],\
             ["yallist", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lucide-react", [\
+        ["npm:0.321.0", {\
+          "packageLocation": "./.yarn/cache/lucide-react-npm-0.321.0-9eb202e407-6677168f4d.zip/node_modules/lucide-react/",\
+          "packageDependencies": [\
+            ["lucide-react", "npm:0.321.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:0.321.0", {\
+          "packageLocation": "./.yarn/__virtual__/lucide-react-virtual-bfd9be546d/0/cache/lucide-react-npm-0.321.0-9eb202e407-6677168f4d.zip/node_modules/lucide-react/",\
+          "packageDependencies": [\
+            ["lucide-react", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:0.321.0"],\
+            ["@types/react", "npm:18.2.48"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

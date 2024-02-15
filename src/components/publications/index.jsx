@@ -1,4 +1,5 @@
 import { Typography } from "../../style";
+import InfoProfile from "../InfoProfile";
 
 import * as C from "./styles";
 export default function Publications() {
@@ -13,6 +14,7 @@ export default function Publications() {
               src="https://avatars.githubusercontent.com/u/111211679?v=4"
               alt="imagem perfil github"
             />
+            <InfoProfile/>
           </C.Content>
         ))}
       </C.ContainerPublication>

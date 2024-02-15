@@ -7,8 +7,6 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     gap:100px;
-    
-    
 `
 
 export const Input = styled.input`
@@ -70,7 +68,7 @@ export const Button = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:12px;
+    gap:4px;
     font-weight: 400px;
     font-size: 12px;
     line-height: 14px;

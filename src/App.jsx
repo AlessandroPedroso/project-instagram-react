@@ -4,6 +4,8 @@ import { darkTheme, lightTheme } from "./style/theme";
 import { Flex, Screen, Typography } from "./style";
 import { NavBar } from "./components/navbar";
 import Header from "./components/header";
+import { Stories } from "./components/stories";
+import Publications from "./components/publications";
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <NavBar themeToggler={themeToggler} theme={theme} />
         <Flex gap="2px">
           <Header/>
+          <Stories/>
+          <Publications/>
         </Flex>
       </Screen>
     </ThemeProvider>

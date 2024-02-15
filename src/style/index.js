@@ -19,6 +19,7 @@ export const Screen = styled.div `
     display: flex;
     flex-direction: row;
     align-items: start;
+    z-index: 49;
     background-color: ${(props)=> props.theme.primary};
 
 `;

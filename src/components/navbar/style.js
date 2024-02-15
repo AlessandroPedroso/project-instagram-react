@@ -29,6 +29,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    z-index: 50;
 
     ${(props) => css`
     

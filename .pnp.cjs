@@ -40,6 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:18.2.0"],\
             ["react-icons", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:5.0.1"],\
             ["styled-components", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:6.1.8"],\
+            ["swiper", "npm:11.0.5"],\
             ["vite", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:5.0.12"]\
           ],\
           "linkType": "SOFT"\
@@ -2553,6 +2554,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:18.2.0"],\
             ["react-icons", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:5.0.1"],\
             ["styled-components", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:6.1.8"],\
+            ["swiper", "npm:11.0.5"],\
             ["vite", "virtual:48a122bdd87380d9b009bd44c7e4ad96a639fb262d9d4fbec2edf6d0310954837e02465b1b4b5a7f8a2fcbb654664b60f130726cfe0937a1fe27b4845f012ebf#npm:5.0.12"]\
           ],\
           "linkType": "SOFT"\
@@ -4107,6 +4109,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-53b1e247e6.zip/node_modules/supports-preserve-symlinks-flag/",\
           "packageDependencies": [\
             ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["swiper", [\
+        ["npm:11.0.5", {\
+          "packageLocation": "./.yarn/cache/swiper-npm-11.0.5-152220df64-83b125d167.zip/node_modules/swiper/",\
+          "packageDependencies": [\
+            ["swiper", "npm:11.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\

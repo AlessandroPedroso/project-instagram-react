@@ -15,6 +15,9 @@ function App() {
     theme === 'light' ? setTheme('dark'):setTheme('light')
   }
 
+  const api = import.meta.env.VITE_KEY_API_PEXELS
+  console.log(api)
+
   return (
     <ThemeProvider theme={theme === 'light'? lightTheme:darkTheme}>
       <Screen>

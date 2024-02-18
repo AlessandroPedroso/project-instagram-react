@@ -45,8 +45,8 @@ function App() {
         <NavBar themeToggler={themeToggler} theme={theme} />
         <Flex gap="2px">
           <Header/>
-          <Stories/>
-          <Publications/>
+          <Stories photos={photos}/>
+          <Publications photos={photos}/>
         </Flex>
       </Screen>
     </ThemeProvider>

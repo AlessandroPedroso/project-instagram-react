@@ -3,10 +3,10 @@ import * as C from "./styles";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-export const Stories = () => {
+export const Stories = ({photos}) => {
   const [showAll, setShowAll] = useState(false);
 
-  const numberArray = showAll ? 20 : 8;
+  photos = showAll ? photos : photos.slice(0,10);
 
   function handleShowAll() {
     setShowAll(!showAll);
@@ -26,7 +26,18 @@ export const Stories = () => {
       </Flex>
 
       <C.Container>
-          {Array.from(Array(numberArray)).map((item, index) => (
+
+      {photos.map((item, index) => (
+            
+            <C.Profile key={index}>
+              <img
+                src={item.src.medium}
+                alt="imagem perfil github"
+              />
+            </C.Profile>
+      
+        ))}
+          {/* {Array.from(Array(numberArray)).map((item, index) => (
             
               <C.Profile key={index}>
                 <img
@@ -35,7 +46,7 @@ export const Stories = () => {
                 />
               </C.Profile>
         
-          ))}
+          ))} */}
       </C.Container>
 
 

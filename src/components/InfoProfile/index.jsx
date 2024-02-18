@@ -2,18 +2,19 @@ import { AiFillHeart } from "react-icons/ai";
 import { FaRegComment } from "react-icons/fa";
 import { Flex, Typography } from "../../style";
 import * as C from "./styles";
+import { randomNumbers } from "../../utils/randomNumbers";
 
-export default function InfoProfile() {
+export default function InfoProfile({name,photo,link}) {
   return (
     <Flex direction="row" align="center" justify="spacer-between">
       <C.Container>
-        <C.Link>
+        <C.Link href={link} target="_blank" >
           <C.ProfileImage
-            src="https://avatars.githubusercontent.com/u/111211679?v=4"
+            src={photo}
             alt="imagem perfil github"
           />
           <Typography weigh="300" size="13px" height="15px">
-            Alessandro
+            {name}
           </Typography>
         </C.Link>
       </C.Container>
@@ -21,12 +22,12 @@ export default function InfoProfile() {
       <C.Container>
         <AiFillHeart color="red" />
         <Typography weigh="300" size="13px" height="15px">
-          1234
+          {randomNumbers()}
         </Typography>
 
         <FaRegComment />
         <Typography weigh="300" size="13px" height="15px">
-          52
+          {randomNumbers()}
         </Typography>
       </C.Container>
     </Flex>
